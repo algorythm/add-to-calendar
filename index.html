@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css">
     <title>Calendar Test</title>
 </head>
+
 <body>
     <h1>Add to Calendar Test</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem assumenda consequatur magnam saepe nihil excepturi molestiae perferendis eius vero sunt deserunt, optio eaque ad ipsa reiciendis hic eligendi debitis porro.</p>
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1"></script>
+
+    <div class="atcb" style="display: none;">
+        {
+            "name": "Fly CPH - LHR",
+            "startDate": "2022-12-01",
+            "startTime": "06:35",
+            "endTime": "08:45",
+            "location": "CPH Airport",
+            "timeZone": "Europe/Copenhagen",
+            "options": [
+                "Google",
+                "Microsoft365",
+                "Outlook.com"
+            ],
+            "label": "CPH - LHR"
+        }
+    </div>
 </body>
+
 </html>
