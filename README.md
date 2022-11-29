@@ -12,3 +12,7 @@ Make sure to have [pnpm](https://pnpm.io/installation) installed, then:
 ```
 
 Open the page on <http://localhost:1234>.
+
+## Check It Out In the Browser
+
+For the lazy fucks that doesn't want to pull it down, check it out here instead: <https://me.wiberg.tech/add-to-calendar/>.
